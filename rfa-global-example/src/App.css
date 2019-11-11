@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  margin: 2%;
+  width: 33%;
+  height: 25%;
+}
